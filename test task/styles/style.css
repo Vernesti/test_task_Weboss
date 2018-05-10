@@ -1,0 +1,82 @@
+.content {
+	display: block;
+	border: 3px solid red;
+	width: 500px;
+	padding: 15px 15px 20px 50px;
+	box-sizing: border-box;
+	font-family: Verdana;
+	font-size: 12px;
+	margin: 0 auto;
+}
+
+.content__head {
+	font-size: 30px;
+	text-align: center;
+}
+
+.content__img {
+	padding: 10px 0 20px 0;
+	text-align: center;
+}
+
+.block__img {
+	display: table-cell;
+}
+
+.img__desc {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.content__desc {
+	font-size: 14px;
+}
+
+.desc__head {
+	width: 100%;
+	background-color: #ffff00;
+	text-align: center;
+	font-size: 18px;
+	border-bottom: 2px solid #dada00;
+	margin-bottom: 10px; 
+}
+
+.desc__item {
+	padding-bottom: 3px;
+	border-bottom: 2px solid #b1b1b1;
+}
+/*вплинуло скидування стилей, примусово повернув до стандартної поведінки*/
+strong {
+	font-weight: bold;
+}
+
+.btn {
+	text-align: center;
+	padding: 25px 0 0 0; 
+}
+
+.btn__buy {
+	position: relative;
+	width: 150px;
+	height: 43px;
+	background: -webkit-linear-gradient(top, bottom, #5a66ff #767ffc); 
+	background: -moz-linear-gradient(top,  #5a66ff,  #767ffc);
+	background: -o-linear-gradient(top,  #5a66ff,  #767ffc); 
+	background: -ms-linear-gradient(top,  #5a66ff,  #767ffc); 
+	background: linear-gradient(to top, #5a66ff, #767ffc);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5a66ff', endColorstr='#767ffc');
+	border: none;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	behavior: url(styles/PIE.htc);
+	color: #fff;
+	font-size: 14px;
+	text-decoration: underline;
+}
+
+.btn__buy:hover {
+	background: linear-gradient(to top, #767ffc,#5a66ff);
+}
